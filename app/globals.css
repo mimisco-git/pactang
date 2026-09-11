@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Geist", "Segoe UI", sans-serif;
+  --color-ink: #0b1220;
+  --color-gold: #c9a227;
+  --color-sand: #f4efe4;
+  --color-line: #243049;
+}
+
+html,
+body {
+  background: #0b1220;
+  color: #f4efe4;
+}
+
+.grid-fade {
+  background-image:
+    linear-gradient(to right, rgba(201, 162, 39, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(201, 162, 39, 0.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
